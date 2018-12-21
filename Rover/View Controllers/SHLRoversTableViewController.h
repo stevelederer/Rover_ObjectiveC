@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SHLRoversTableViewController.h
 //  Rover
 //
 //  Created by Steve Lederer on 12/19/18.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface SHLRoversTableViewController : UITableViewController
 
 @end
 

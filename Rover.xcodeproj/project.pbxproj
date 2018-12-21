@@ -7,25 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0754E721CB577C00E2A856 /* SHLPhotoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0754E621CB577C00E2A856 /* SHLPhotoCache.m */; };
+		1B0754E921CB60E100E2A856 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0754E821CB60E100E2A856 /* PhotoDetailViewController.swift */; };
 		1B477DC121CAEBA0006BA81A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477DC021CAEBA0006BA81A /* AppDelegate.m */; };
-		1B477DC421CAEBA0006BA81A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477DC321CAEBA0006BA81A /* ViewController.m */; };
 		1B477DC721CAEBA0006BA81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B477DC521CAEBA0006BA81A /* Main.storyboard */; };
 		1B477DC921CAEBA1006BA81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B477DC821CAEBA1006BA81A /* Assets.xcassets */; };
 		1B477DCC21CAEBA1006BA81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B477DCA21CAEBA1006BA81A /* LaunchScreen.storyboard */; };
 		1B477DCF21CAEBA1006BA81A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477DCE21CAEBA1006BA81A /* main.m */; };
+		1B477DD621CAEBAB006BA81A /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B477DD521CAEBAB006BA81A /* APIKeys.plist */; };
+		1B477DDC21CAEC46006BA81A /* SHLMarsRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477DDB21CAEC46006BA81A /* SHLMarsRover.m */; };
+		1B477DDF21CAF0BE006BA81A /* SHLMarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477DDE21CAF0BE006BA81A /* SHLMarsPhoto.m */; };
+		1B477DE221CAF232006BA81A /* SHLSolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477DE121CAF232006BA81A /* SHLSolDescription.m */; };
+		1B477DE621CB023E006BA81A /* SHLMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477DE521CB023E006BA81A /* SHLMarsRoverClient.m */; };
+		1B477DF521CB3564006BA81A /* SHLRoversTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477DF421CB3564006BA81A /* SHLRoversTableViewController.m */; };
+		1B477DF821CB3575006BA81A /* SHLSolsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477DF721CB3575006BA81A /* SHLSolsTableViewController.m */; };
+		1B477DFB21CB359C006BA81A /* SHLPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477DFA21CB359C006BA81A /* SHLPhotosCollectionViewController.m */; };
+		1B477E0121CB35D6006BA81A /* SHLPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B477E0021CB35D6006BA81A /* SHLPhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B0754E521CB577C00E2A856 /* SHLPhotoCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLPhotoCache.h; sourceTree = "<group>"; };
+		1B0754E621CB577C00E2A856 /* SHLPhotoCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLPhotoCache.m; sourceTree = "<group>"; };
+		1B0754E821CB60E100E2A856 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		1B0754EA21CB614200E2A856 /* Rover-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rover-Bridging-Header.h"; sourceTree = "<group>"; };
 		1B477DBC21CAEBA0006BA81A /* Rover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B477DBF21CAEBA0006BA81A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B477DC021CAEBA0006BA81A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B477DC221CAEBA0006BA81A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1B477DC321CAEBA0006BA81A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1B477DC621CAEBA0006BA81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B477DC821CAEBA1006BA81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B477DCB21CAEBA1006BA81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B477DCD21CAEBA1006BA81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B477DCE21CAEBA1006BA81A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B477DD521CAEBAB006BA81A /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		1B477DDA21CAEC46006BA81A /* SHLMarsRover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLMarsRover.h; sourceTree = "<group>"; };
+		1B477DDB21CAEC46006BA81A /* SHLMarsRover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLMarsRover.m; sourceTree = "<group>"; };
+		1B477DDD21CAF0BE006BA81A /* SHLMarsPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLMarsPhoto.h; sourceTree = "<group>"; };
+		1B477DDE21CAF0BE006BA81A /* SHLMarsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLMarsPhoto.m; sourceTree = "<group>"; };
+		1B477DE021CAF232006BA81A /* SHLSolDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLSolDescription.h; sourceTree = "<group>"; };
+		1B477DE121CAF232006BA81A /* SHLSolDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLSolDescription.m; sourceTree = "<group>"; };
+		1B477DE421CB023E006BA81A /* SHLMarsRoverClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLMarsRoverClient.h; sourceTree = "<group>"; };
+		1B477DE521CB023E006BA81A /* SHLMarsRoverClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLMarsRoverClient.m; sourceTree = "<group>"; };
+		1B477DF321CB3564006BA81A /* SHLRoversTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLRoversTableViewController.h; sourceTree = "<group>"; };
+		1B477DF421CB3564006BA81A /* SHLRoversTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLRoversTableViewController.m; sourceTree = "<group>"; };
+		1B477DF621CB3575006BA81A /* SHLSolsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLSolsTableViewController.h; sourceTree = "<group>"; };
+		1B477DF721CB3575006BA81A /* SHLSolsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLSolsTableViewController.m; sourceTree = "<group>"; };
+		1B477DF921CB359C006BA81A /* SHLPhotosCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		1B477DFA21CB359C006BA81A /* SHLPhotosCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		1B477DFF21CB35D6006BA81A /* SHLPhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		1B477E0021CB35D6006BA81A /* SHLPhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0754E421CB575100E2A856 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B0754E621CB577C00E2A856 /* SHLPhotoCache.m */,
+				1B0754E521CB577C00E2A856 /* SHLPhotoCache.h */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
 		1B477DB321CAEBA0006BA81A = {
 			isa = PBXGroup;
 			children = (
@@ -58,17 +96,75 @@
 		1B477DBE21CAEBA0006BA81A /* Rover */ = {
 			isa = PBXGroup;
 			children = (
-				1B477DBF21CAEBA0006BA81A /* AppDelegate.h */,
-				1B477DC021CAEBA0006BA81A /* AppDelegate.m */,
-				1B477DC221CAEBA0006BA81A /* ViewController.h */,
-				1B477DC321CAEBA0006BA81A /* ViewController.m */,
-				1B477DC521CAEBA0006BA81A /* Main.storyboard */,
-				1B477DC821CAEBA1006BA81A /* Assets.xcassets */,
-				1B477DCA21CAEBA1006BA81A /* LaunchScreen.storyboard */,
-				1B477DCD21CAEBA1006BA81A /* Info.plist */,
-				1B477DCE21CAEBA1006BA81A /* main.m */,
+				1B477DE721CB3297006BA81A /* View Controllers */,
+				1B477DD921CAEC29006BA81A /* Models */,
+				1B0754E421CB575100E2A856 /* Model Controllers */,
+				1B477DE321CB01F2006BA81A /* Networking */,
+				1B477DD821CAEBC8006BA81A /* UI */,
+				1B477DD721CAEBBB006BA81A /* Resources */,
 			);
 			path = Rover;
+			sourceTree = "<group>";
+		};
+		1B477DD721CAEBBB006BA81A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B477DBF21CAEBA0006BA81A /* AppDelegate.h */,
+				1B477DC021CAEBA0006BA81A /* AppDelegate.m */,
+				1B477DC821CAEBA1006BA81A /* Assets.xcassets */,
+				1B477DCD21CAEBA1006BA81A /* Info.plist */,
+				1B477DCE21CAEBA1006BA81A /* main.m */,
+				1B477DD521CAEBAB006BA81A /* APIKeys.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B477DD821CAEBC8006BA81A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1B477DC521CAEBA0006BA81A /* Main.storyboard */,
+				1B477DCA21CAEBA1006BA81A /* LaunchScreen.storyboard */,
+				1B477DFF21CB35D6006BA81A /* SHLPhotoCollectionViewCell.h */,
+				1B477E0021CB35D6006BA81A /* SHLPhotoCollectionViewCell.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1B477DD921CAEC29006BA81A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B477DDA21CAEC46006BA81A /* SHLMarsRover.h */,
+				1B477DDB21CAEC46006BA81A /* SHLMarsRover.m */,
+				1B477DDD21CAF0BE006BA81A /* SHLMarsPhoto.h */,
+				1B477DDE21CAF0BE006BA81A /* SHLMarsPhoto.m */,
+				1B477DE021CAF232006BA81A /* SHLSolDescription.h */,
+				1B477DE121CAF232006BA81A /* SHLSolDescription.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B477DE321CB01F2006BA81A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1B477DE421CB023E006BA81A /* SHLMarsRoverClient.h */,
+				1B477DE521CB023E006BA81A /* SHLMarsRoverClient.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1B477DE721CB3297006BA81A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B477DF321CB3564006BA81A /* SHLRoversTableViewController.h */,
+				1B477DF421CB3564006BA81A /* SHLRoversTableViewController.m */,
+				1B477DF621CB3575006BA81A /* SHLSolsTableViewController.h */,
+				1B477DF721CB3575006BA81A /* SHLSolsTableViewController.m */,
+				1B477DF921CB359C006BA81A /* SHLPhotosCollectionViewController.h */,
+				1B477DFA21CB359C006BA81A /* SHLPhotosCollectionViewController.m */,
+				1B0754E821CB60E100E2A856 /* PhotoDetailViewController.swift */,
+				1B0754EA21CB614200E2A856 /* Rover-Bridging-Header.h */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,11 +193,13 @@
 		1B477DB421CAEBA0006BA81A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SHL;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Steve Lederer";
 				TargetAttributes = {
 					1B477DBB21CAEBA0006BA81A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -129,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B477DCC21CAEBA1006BA81A /* LaunchScreen.storyboard in Resources */,
+				1B477DD621CAEBAB006BA81A /* APIKeys.plist in Resources */,
 				1B477DC921CAEBA1006BA81A /* Assets.xcassets in Resources */,
 				1B477DC721CAEBA0006BA81A /* Main.storyboard in Resources */,
 			);
@@ -141,9 +240,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B477DC421CAEBA0006BA81A /* ViewController.m in Sources */,
+				1B477DE621CB023E006BA81A /* SHLMarsRoverClient.m in Sources */,
+				1B477DE221CAF232006BA81A /* SHLSolDescription.m in Sources */,
 				1B477DCF21CAEBA1006BA81A /* main.m in Sources */,
+				1B477DF521CB3564006BA81A /* SHLRoversTableViewController.m in Sources */,
+				1B0754E921CB60E100E2A856 /* PhotoDetailViewController.swift in Sources */,
+				1B477DFB21CB359C006BA81A /* SHLPhotosCollectionViewController.m in Sources */,
+				1B477DDF21CAF0BE006BA81A /* SHLMarsPhoto.m in Sources */,
 				1B477DC121CAEBA0006BA81A /* AppDelegate.m in Sources */,
+				1B477DF821CB3575006BA81A /* SHLSolsTableViewController.m in Sources */,
+				1B477DDC21CAEC46006BA81A /* SHLMarsRover.m in Sources */,
+				1B477E0121CB35D6006BA81A /* SHLPhotoCollectionViewCell.m in Sources */,
+				1B0754E721CB577C00E2A856 /* SHLPhotoCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +393,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 56CLV9J785;
-				INFOPLIST_FILE = Rover/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Rover/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stevelederer.Rover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/stevelederer/Documents/DevMountain/Unit4/Day3/Rover/Rover/View Controllers/Rover-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,15 +415,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 56CLV9J785;
-				INFOPLIST_FILE = Rover/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Rover/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stevelederer.Rover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/stevelederer/Documents/DevMountain/Unit4/Day3/Rover/Rover/View Controllers/Rover-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
